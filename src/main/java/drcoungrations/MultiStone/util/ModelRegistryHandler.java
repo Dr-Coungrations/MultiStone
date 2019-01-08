@@ -1,5 +1,6 @@
 package drcoungrations.MultiStone.util;
 
+import drcoungrations.MultiStone.init.MSBlocks;
 import drcoungrations.MultiStone.init.MS_Items;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -19,6 +20,8 @@ public class ModelRegistryHandler {
         registerModel(MS_Items.IRON_STICK_ITEM);
         registerModel(MS_Items.BLUEIRON_STICK_ITEM);
         registerModel(MS_Items.MULTI_STONE_ITEM);
+        registerModel(Item.getItemFromBlock(MSBlocks.BLUESTONE_ORE_BLOCK));
+
     }
  
     private static void registerModel(Item item) {
