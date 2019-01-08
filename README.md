@@ -1,1 +1,1 @@
-# MuktiStone
+# MultiStone
