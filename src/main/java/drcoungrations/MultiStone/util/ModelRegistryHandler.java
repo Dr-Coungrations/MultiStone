@@ -20,7 +20,9 @@ public class ModelRegistryHandler {
         registerModel(MS_Items.IRON_STICK_ITEM);
         registerModel(MS_Items.BLUEIRON_STICK_ITEM);
         registerModel(MS_Items.MULTI_STONE_ITEM);
+        registerModel(MS_Items.MULTISTONE_AXE_ITEM);
         registerModel(Item.getItemFromBlock(MSBlocks.BLUESTONE_ORE_BLOCK));
+        registerModel(Item.getItemFromBlock(MSBlocks.BLUESTONE_BLOCK));
 
     }
  

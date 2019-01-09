@@ -8,5 +8,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 	public class MSBlocks {
 	 
 	    public static final Block BLUESTONE_ORE_BLOCK = null;
+	    public static final Block BLUESTONE_BLOCK = null;
 	 
 	}

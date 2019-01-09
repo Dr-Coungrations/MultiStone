@@ -11,5 +11,6 @@ public class MS_Items {
 	public static final Item IRON_STICK_ITEM = null;
 	public static final Item BLUEIRON_STICK_ITEM = null;
 	public static final Item MULTI_STONE_ITEM = null;
+	public static final Item MULTISTONE_AXE_ITEM = null;
 
 }

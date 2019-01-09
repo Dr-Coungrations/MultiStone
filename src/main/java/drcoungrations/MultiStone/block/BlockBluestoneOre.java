@@ -10,7 +10,7 @@ public class BlockBluestoneOre extends Block {
 	
 
     public BlockBluestoneOre(Material material, String unlocalizedName, String registryName) {
-        this(Material.ROCK, SoundType.STONE, "blockBluestone_ore", "bluestone_ore_block");
+        this(material, SoundType.STONE, "blockBluestone_ore", "bluestone_ore_block");
     }
  
     public BlockBluestoneOre(Material material, SoundType sound, String unlocalizedName, String registryName) {
@@ -19,6 +19,10 @@ public class BlockBluestoneOre extends Block {
         setRegistryName("bluestone_ore_block");
         setCreativeTab(CreativeTabs.MISC);
         setSoundType(sound);
+        setHardness(10F);
+        setResistance(6F);
+        setHarvestLevel("pickaxe", 2);
+        setLightLevel(2F);
     }
 
 }
